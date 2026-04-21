@@ -1,0 +1,7 @@
+﻿src/components/Footer.tsx(2,10): error TS2305: Module '"lucide-react"' has no exported member 'Github'.
+src/components/Footer.tsx(2,18): error TS2305: Module '"lucide-react"' has no exported member 'Linkedin'.
+src/components/sections/Contact.tsx(5,22): error TS2305: Module '"lucide-react"' has no exported member 'Github'.
+src/components/sections/Contact.tsx(5,30): error TS2305: Module '"lucide-react"' has no exported member 'Linkedin'.
+src/components/sections/FeaturedWork.tsx(7,24): error TS2305: Module '"lucide-react"' has no exported member 'Github'.
+src/components/sections/Hero.tsx(6,21): error TS2305: Module '"lucide-react"' has no exported member 'Github'.
+src/components/sections/Hero.tsx(6,29): error TS2305: Module '"lucide-react"' has no exported member 'Linkedin'.
