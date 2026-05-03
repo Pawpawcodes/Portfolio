@@ -171,5 +171,31 @@ export const contentData = {
       year: "2025",
       details: "Built and submitted Studifyy at the Artificial Intelligence Agents Intensive Workshop.",
     },
+  ],
+  resumes: [
+    {
+      id: "sde",
+      title: "General SDE Resume",
+      filename: "Satakshi Roy.pdf",
+      description: "Comprehensive resume highlighting full-stack development, system design, algorithms, DSA expertise, and core computer science fundamentals. Best for traditional SDE/software engineering positions.",
+      icon: "📄",
+      color: "from-blue-500/20 to-cyan-500/20",
+    },
+    {
+      id: "automation",
+      title: "AI Automation Resume",
+      filename: "Satakshi_Roy_CV__automation.pdf",
+      description: "Specialized resume focused on AI automation, LLM workflows, n8n orchestration, workflow automation systems, and AI-powered solutions. Perfect for automation engineer and AI specialist roles.",
+      icon: "⚡",
+      color: "from-purple-500/20 to-pink-500/20",
+    },
+    {
+      id: "detailed",
+      title: "Detailed Resume",
+      filename: "Satakshi_Roy_CV__detailed.pdf",
+      description: "Comprehensive detailed resume with in-depth project descriptions, technical metrics, achievements, hackathon wins, and comprehensive experience breakdown. Ideal for in-depth application processes.",
+      icon: "📋",
+      color: "from-emerald-500/20 to-teal-500/20",
+    },
   ]
 };
