@@ -13,7 +13,7 @@ export const contentData = {
       github: "https://github.com/Pawpawcodes",
       linkedin: "https://linkedin.com/in/satakshiroy",
     },
-    intro: "I am a third-year B.Tech student in Computer Science and Engineering at Kalinga Institute of Industrial Technology (KIIT), with a strong interest in developing scalable and user-centric software solutions. My current focus includes strengthening core problem-solving skills through Data Structures and Algorithms, while actively exploring Web Development alongside Cloud Computing and Data Analytics. Through projects, hackathons, and collaborative team experiences, I have gained hands-on exposure to solving real-world problems using modern technologies. I bring a proactive learning mindset, adaptability, and strong analytical thinking to every task I undertake.",
+    intro: "I'm a fourth-year B.Tech student in Computer Science and Engineering at KIIT, building at the intersection of AI Automation, LLM Engineering, and full-stack software development. My focus is creating end-to-end automation systems and AI-powered pipelines that are production-grade, scalable, and impact-driven.\n\nThrough projects like Reddit Scraper (94% time reduction), Creator Outreach Automation (85% efficiency gain), and AI UGC Content Engine (95% latency improvement), I've gained hands-on expertise in orchestrating complex workflows, designing LLM pipelines, and building systems that solve real-world problems at scale.\n\nI'm actively seeking SDE internship opportunities where I can contribute to high-impact engineering teams and ship production-ready software. Passionate about AI Agents, LLM Pipelines, Workflow Automation, Full-Stack Development, and Cloud Infrastructure.",
   },
   skills: [
     {
