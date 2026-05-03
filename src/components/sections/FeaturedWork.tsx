@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { contentData } from "@/data/content";
 import { SectionHeading } from "@/components/SectionHeading";
 import { motion, AnimatePresence } from "framer-motion";
@@ -31,11 +32,25 @@ export function FeaturedWork() {
               className="group cursor-pointer rounded-2xl bg-card border border-border overflow-hidden hover:border-primary/50 transition-colors shadow-sm hover:shadow-md flex flex-col"
               onClick={() => setSelectedProject(project.id)}
             >
-              <div className="h-48 bg-muted border-b border-border relative overflow-hidden flex items-center justify-center p-6 text-center isolate">
-                <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                <h3 className="font-bold text-2xl text-foreground/20 group-hover:text-foreground/40 transition-colors duration-500 drop-shadow-sm select-none">
-                  {project.title.split("–")[0].trim().toUpperCase()}
-                </h3>
+              <div className="h-48 bg-muted border-b border-border relative overflow-hidden flex items-center justify-center isolate">
+                {project.image ? (
+                  <>
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  </>
+                ) : (
+                  <>
+                    <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                    <h3 className="font-bold text-2xl text-foreground/20 group-hover:text-foreground/40 transition-colors duration-500 drop-shadow-sm select-none">
+                      {project.title.split("–")[0].trim().toUpperCase()}
+                    </h3>
+                  </>
+                )}
               </div>
               <div className="p-6 flex-grow flex flex-col">
                 <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">{project.title}</h3>

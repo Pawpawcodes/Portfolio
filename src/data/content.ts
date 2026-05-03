@@ -55,6 +55,7 @@ export const contentData = {
       id: "reddit-scraper",
       title: "Reddit Scraper → AI Video Generator",
       tech: ["Python", "Reddit API", "LLM APIs", "Arcads"],
+      image: "/projects/Reddit.png",
       links: {
         github: "https://github.com/Pawpawcodes/automated-ad-creation",
       },
@@ -66,6 +67,7 @@ export const contentData = {
       id: "creator-outreach",
       title: "Creator Outreach Automation System",
       tech: ["JavaScript", "Google Apps Script", "Google Sheets", "Chrome Extension"],
+      image: "/projects/extension.png",
       links: {
         github: "https://github.com/Pawpawcodes/creator-scout",
       },
@@ -77,6 +79,7 @@ export const contentData = {
       id: "ai-ugc-engine",
       title: "AI UGC Content Engine",
       tech: ["LLM APIs", "n8n", "Google Sheets"],
+      image: "/projects/content engine.png",
       links: {
         github: "https://github.com/Pawpawcodes/Ai-UGC-Content-engine",
       },
@@ -88,6 +91,7 @@ export const contentData = {
       id: "nagarmitra",
       title: "NagarMitra – Civic Issue Tracker",
       tech: ["React Native", "Node.js", "AWS", "MongoDB"],
+      image: "/projects/nagarmitra.png",
       links: {
         github: "https://github.com/Pawpawcodes/NagarMitra",
       },
@@ -99,6 +103,7 @@ export const contentData = {
       id: "pashumitra",
       title: "PashuMitra – AI Animal Welfare Platform",
       tech: ["React", "Node.js", "Python", "AWS", "NLP"],
+      image: "/projects/Pashu.png",
       links: {
         github: "https://github.com/Pawpawcodes/PashuMitra-translator",
       },
@@ -110,6 +115,7 @@ export const contentData = {
       id: "spendora",
       title: "Spendora – Personal Finance Tracker",
       tech: ["React", "MySQL", "Data Visualization"],
+      image: "/projects/Spendora.png",
       links: {
         github: "https://github.com/Pawpawcodes/Spendora",
         live: "https://spendoraa.onrender.com/",
@@ -122,6 +128,7 @@ export const contentData = {
       id: "studifyy",
       title: "Studifyy – AI Productivity Platform",
       tech: ["React", "GenAI", "RAG", "APIs"],
+      image: "/projects/STudify.png",
       links: {
         github: "https://github.com/Pawpawcodes/Studifyy",
       },
